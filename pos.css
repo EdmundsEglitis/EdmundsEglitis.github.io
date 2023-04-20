@@ -6,6 +6,7 @@ body{
     color: black;
     font-size: 30px;
     font-weight:200;
+    transition-duration:0.2s;
 }
 
 nav{
@@ -35,7 +36,9 @@ li{
 li:hover{
     transform: translateY(5px);
 }
-
+.links-uz:hover{
+    color: brown;
+}
 a{
     text-decoration: none;
     color: white;
