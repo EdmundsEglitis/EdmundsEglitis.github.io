@@ -1,0 +1,92 @@
+body{
+        background-color: beige;
+        margin:0;
+        padding-top: 60px;
+}
+
+header{
+    margin: 0px;
+    padding-right: 0px;
+    background-color: rgb(35, 36, 34);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 4;
+    height: 60px;
+    right: 0;
+}
+
+h1{
+ text-align: center;
+ color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+width: 49vw;
+height: 49vh;
+object-fit: fill;
+}
+
+a:hover{
+    color: darkgrey;
+
+}
+.kakis{
+    width: 1fr;
+    height: 1fr;
+}
+.kakis1{
+    width: 1fr;
+    height: 1fr;
+}
+.kakis2{
+    width: 1fr;
+    height: 1fr;
+}
+.kakis3{
+    width: 1fr;
+    height: 1fr;
+}
+.kakis4{
+    width: 1fr;
+    height: 1fr;
+}
+.kakis5{
+     width: 1fr;
+    height: 1fr;
+}
+.kakis6{
+     width: 1fr;
+    height: 1fr;
+}
+.kakis7{
+     width: 1fr;
+    height: 1fr;
+}
+.kakis7{
+     width: 1fr;
+    height: 1fr;
+}
+.kakis8{
+     width: 1fr;
+    height: 1fr;
+}
+
+
+.container{
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 13px;
+    row-gap: 12px;
+    padding: 0px;
+    width: 99px;
+    height: 100vh;
+    margin: 0px;
+
+}
