@@ -8,6 +8,9 @@ body{
     font-weight:200;
     transition-duration:0.3s;
 }
+.links-uz:hover{
+    color: brown;
+}
 
 nav{
     position: relative;
@@ -35,9 +38,6 @@ li{
 
 li:hover{
     transform: translateY(5px);
-}
-.links-uz:hover{
-    color: brown;
 }
 a{
     text-decoration: none;
